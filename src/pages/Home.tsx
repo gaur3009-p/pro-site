@@ -50,7 +50,7 @@ export default function Home() {
       id: 1,
       title: "Speech Grammar Correction via Voice Input",
       description: "AI-powered system that corrects grammatically incorrect sentences through voice input, combining ASR, NLP transformers, and TTS for complete voice-to-voice interaction.",
-      image: "https://pub-cdn.sider.ai/u/U03VHZRX993/web-coder/688cee542b2b5e92a4eb2300/resource/b82d009f-242a-4012-82fe-ef57e6c70924.jpg",
+      image: "",
       techStack: ["Python", "Gradio", "Transformers", "TTS", "Hugging Face"],
       features: [
         "Real-time speech-to-text conversion",
@@ -59,7 +59,7 @@ export default function Home() {
       ],
       links: {
         github: "https://github.com/gaur3009-p/SHL_assign",
-        demo: "https://huggingface.co/spaces/demo"
+        demo: "https://gaur3009-speech-grammar.hf.space/"
       },
       icon: Brain
     },
@@ -67,7 +67,7 @@ export default function Home() {
       id: 2,
       title: "QA Bot – RAG-Based Question Answering",
       description: "Intelligent chatbot using Retrieval-Augmented Generation to answer questions from custom documents with vector databases and advanced document processing.",
-      image: "https://pub-cdn.sider.ai/u/U03VHZRX993/web-coder/688cee542b2b5e92a4eb2300/resource/05f80556-c69c-4f50-b11c-24a97c8dcf00.jpg",
+      image: "",
       techStack: ["Weaviate-Client", "Cohere", "Gradio", "PyPDFLoader"],
       features: [
         "Upload any document (PDF, DOCX, TXT)",
@@ -75,27 +75,22 @@ export default function Home() {
         "Real-time context-aware responses"
       ],
       links: {
-        github: "https://github.com/gaur3009-p/QA_Bot",
-        demo: "#"
+        github: "https://github.com/gaur3009-p/QA_Bot"
       },
       icon: MessageSquare
     },
     {
       id: 3,
       title: "Rookus Startup – GenAI Campaign Pivot",
-      description: "Strategic pivot from fashion design AI to Creative Campaigns as a Service (CaaS), developing AI tools for marketing automation and content generation.",
-      image: "https://pub-cdn.sider.ai/u/U03VHZRX993/web-coder/688cee542b2b5e92a4eb2300/resource/61febca2-5bc1-4894-b561-6555b33d0008.jpg",
+      description: "I strategically pivot the idea from fashion design AI to Creative Campaigns as a Service (CaaS), developing AI tools for marketing automation and content generation.",
+      image: "",
       techStack: ["GenAI", "Marketing Automation", "SEO Tools", "CRM"],
       features: [
         "Generate marketing posters and ad content",
         "Write optimized product descriptions",
         "Integrate SEO tools and CRM workflows"
       ],
-      achievement: "Runner-Up in BIT Winter Cohort (July 26th, 2025)",
-      links: {
-        github: "#",
-        demo: "#"
-      },
+      achievement: "Runner-Up in BIT Winter Cohort (July 26th, 2025)"
       icon: Rocket
     }
   ]
@@ -215,7 +210,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="https://pub-cdn.sider.ai/u/U03VHZRX993/web-coder/688cee542b2b5e92a4eb2300/resource/1902e2b8-8b3e-4c91-95b1-20401d74f219.jpg" 
+                src="" 
                 alt="Aditya Singh Gaur" 
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
               />
@@ -400,7 +395,7 @@ export default function Home() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300">aditya.gaur@example.com</p>
+                <p className="text-gray-300">gaur3009@gmail.com</p>
               </CardContent>
             </Card>
             
@@ -412,7 +407,7 @@ export default function Home() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-300">github.com/gaur3009-p</p>
+                <p className="text-gray-300">https://wwww.github.com/gaur3009-p</p>
               </CardContent>
             </Card>
           </div>
@@ -434,7 +429,7 @@ export default function Home() {
       <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-white/10">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400">
-            © 2025 Aditya Singh Gaur. Built with React, TypeScript, and Tailwind CSS.
+            © 2025 Aditya Singh Gaur
           </p>
         </div>
       </footer>
