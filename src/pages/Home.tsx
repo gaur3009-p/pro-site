@@ -90,7 +90,7 @@ export default function Home() {
         "Write optimized product descriptions",
         "Integrate SEO tools and CRM workflows"
       ],
-      achievement: "Runner-Up in BIT Winter Cohort (July 26th, 2025)"
+      achievement: "Runner-Up in BIT Winter Cohort (July 26th, 2025)",
       icon: Rocket
     }
   ]
